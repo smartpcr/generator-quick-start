@@ -1,6 +1,6 @@
 {
   "name": "generator-react-with-typescript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "template using typescript and react",
   "homepage": "https://github.com",
   "author": {
@@ -36,8 +36,8 @@
     "npm": ">= 4.0.0"
   },
   "dependencies": {
-    "yeoman-generator": "^2.0.1",
     "chalk": "^2.1.0",
+    "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
   },
   "jest": {
