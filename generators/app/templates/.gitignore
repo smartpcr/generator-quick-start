@@ -1,0 +1,5 @@
+**/node_modules
+.DT_Store
+.idea
+package-lock.json
+yarn.lock 
