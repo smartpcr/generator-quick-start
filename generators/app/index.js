@@ -6,7 +6,9 @@ const yosay = require('yosay');
 module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
-    this.log(yosay(`Welcome to the ${chalk.red('generator-hello-world')} generator!`));
+    this.log(
+      yosay(`Welcome to the ${chalk.red('generator-react-with-typescript')} generator!`)
+    );
 
     const prompts = [
       {
