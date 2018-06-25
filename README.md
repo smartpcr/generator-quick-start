@@ -7,13 +7,13 @@ First, install [Yeoman](http://yeoman.io) and generator-quick-start using [npm](
 
 ```bash
 npm install -g yo
-npm install -g generator-quick-start
+npm install -g generator-react-with-typescript
 ```
 
 Then generate your new project:
 
 ```bash
-yo quick-start
+yo react-with-typescript
 ```
 
 ## Getting To Know Yeoman

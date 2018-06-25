@@ -1,12 +1,12 @@
 {
-  "name": "generator-hello-world",
-  "version": "0.0.0",
+  "name": "generator-react-with-typescript",
+  "version": "0.1.0",
   "description": "template using typescript and react",
   "homepage": "https://github.com",
   "author": {
     "name": "xiaodong li",
     "email": "lingxd@gmail.com",
-    "url": "https://biosoftworks.visualstudio.com/_git/react-fullstack"
+    "url": "https://github.com/smartpcr/generator-quick-start"
   },
   "files": [
     "generators"
