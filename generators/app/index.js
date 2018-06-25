@@ -40,13 +40,7 @@ module.exports = class extends Generator {
         name: this.props.name
       }
     );
-    this.fs.copyTpl(
-      this.templatePath('_bower.json'),
-      this.destinationPath('bower.json'),
-      {
-        name: this.props.name
-      }
-    );
+
     this.fs.copy(this.templatePath('_gitignore'), this.destinationPath('.gitignore'));
 
     tempalteFiles.forEach(element => {
@@ -55,6 +49,8 @@ module.exports = class extends Generator {
   }
 
   install() {
-    this.installDependencies();
+    this.installDependencies({
+      bower: false
+    });
   }
 };
